@@ -1,0 +1,52 @@
+# macOS 系統檔案
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python 編譯暫存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+.env/
+.venv/
+env/
+venv/
+
+# pip / poetry / conda 檔案
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+poetry.toml
+
+# Jupyter 產生的快取
+*.nbconvert.ipynb
+
+# VS Code 設定
+.vscode/
+
+# 暫存檔 / 測試檔
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 單元測試覆蓋率報告
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy、pytest、pyright 等工具
+.mypy_cache/
+.pytest_cache/
+.pyright/
+
+# PyCharm
+.idea/
